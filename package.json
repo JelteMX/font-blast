@@ -35,7 +35,7 @@
   "dependencies": {
     "commander": "2.*",
     "graceful-fs": "4.*",
-    "mkdirp": "0.5.*",
+    "mkdirp": "1.0.0",
     "svg2ttf": "4.*",
     "svgo": "0.7.*",
     "xmldom": "0.1.*"
