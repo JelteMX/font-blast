@@ -25,7 +25,8 @@
   "scripts": {
     "test": "jest",
     "compile": "rimraf lib/* && babel src -d lib",
-    "prepublish": "npm run compile"
+    "prepublish": "yarn run snyk-protect && npm run compile",
+    "snyk-protect": "snyk protect"
   },
   "jest": {
     "testPathIgnorePatterns": [
@@ -38,7 +39,8 @@
     "mkdirp": "0.5.*",
     "svg2ttf": "4.*",
     "svgo": "0.7.*",
-    "xmldom": "0.1.*"
+    "xmldom": "0.1.*",
+    "snyk": "^1.319.1"
   },
   "devDependencies": {
     "babel-cli": "6.*",
@@ -49,5 +51,6 @@
     "jest": ">=16",
     "regenerator-runtime": "0.*",
     "rimraf": "2.*"
-  }
+  },
+  "snyk": true
 }
