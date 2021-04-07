@@ -36,7 +36,7 @@
     "commander": "2.*",
     "graceful-fs": "4.*",
     "mkdirp": "0.5.*",
-    "svg2ttf": "4.*",
+    "svg2ttf": "5.2.0",
     "svgo": "0.7.*",
     "xmldom": "0.1.*"
   },
